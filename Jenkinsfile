@@ -9,8 +9,7 @@ pipeline
             steps 
             {
                 echo 'Build Application'
-                 bat '''mvn test
-'''
+                 powershell 'mvn clean'
             }
         }
 

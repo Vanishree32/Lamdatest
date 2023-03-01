@@ -9,7 +9,7 @@ pipeline
             steps 
             {
                 echo 'Build Application'
-                 powershell 'mvn clean'
+                 sh 'mvn clean'
             }
         }
 

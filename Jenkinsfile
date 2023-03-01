@@ -9,6 +9,7 @@ pipeline
             steps 
             {
                 echo 'Build Application'
+                git 'https://github.com/Vanishree32/Lamdatest.git'
             }
         }
 

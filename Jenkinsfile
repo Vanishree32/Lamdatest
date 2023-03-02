@@ -9,7 +9,7 @@ pipeline
             steps 
             {
                 echo 'Build Application'
-                sh 'mvn clean'
+                bat 'mvn clean'
               
             }
         }

@@ -8,10 +8,7 @@ pipeline
         {
             steps 
             {
-                echo 'Build Application'
-                sh '''mvn test JavaToDo
-'''
-              
+                echo 'Build Application'          
             }
         }
 

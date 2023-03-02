@@ -9,7 +9,8 @@ pipeline
             steps 
             {
                 echo 'Build Application'
-                sh 'mvn clean'
+                sh '''mvn test JavaToDo
+'''
               
             }
         }

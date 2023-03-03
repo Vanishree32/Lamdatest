@@ -4,11 +4,11 @@ pipeline
         
     
     
-    environment {
+ //   environment {
 
-    path = "C:\\WINDOWS\\SYSTEM32"
+  //  path = "C:\\WINDOWS\\SYSTEM32"
 
-}
+//}
 
     stages 
     {
@@ -17,7 +17,7 @@ pipeline
             steps 
             {
                 echo 'Build Application' 
-                sh 'start cmd.exe '
+               
                 sh 'mvn clean install'
                 
                  

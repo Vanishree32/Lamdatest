@@ -18,7 +18,6 @@ pipeline
             {
                 echo 'Build Application' 
                  bat 'start cmd.exe '
-                echo $MAVEN_HOME
                  bat 'mvn clean install'
                 
                  

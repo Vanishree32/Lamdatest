@@ -16,7 +16,7 @@ pipeline
             {
                 echo 'Build Application' 
                  bat 'start cmd.exe '
-                 bat "C:\\Users\\Brigosha_Guest\\Downloads\\apache-maven-3.8.7-bin\\mvn clean test"
+                 bat 'mvn clean install'
                 
                  
             }

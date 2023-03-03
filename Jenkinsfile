@@ -1,6 +1,12 @@
 pipeline 
 {
     agent any
+    
+    environment {
+
+    path = "C:\\WINDOWS\\SYSTEM32"
+
+}
 
     stages 
     {

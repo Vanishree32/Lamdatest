@@ -16,7 +16,7 @@ pipeline
             {
                 echo 'Build Application' 
                  bat 'start cmd.exe '
-                 bat 'mvn clean install'
+                 bat 'mvn clean test'
             }
         }
 

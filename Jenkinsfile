@@ -1,8 +1,6 @@
 pipeline 
 {
     agent any
-    tools {
-        maven 'Maven 3.8.7'
         
     }
     
@@ -20,6 +18,7 @@ pipeline
             {
                 echo 'Build Application' 
                  bat 'start cmd.exe '
+                echo $MAVEN_HOME
                  bat 'mvn clean install'
                 
                  

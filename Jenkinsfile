@@ -18,7 +18,7 @@ pipeline
             {
                 echo 'Build Application' 
                  bat 'start cmd.exe '
-                 run 'pom.xml'
+                echo 'mvn clean install'
                 
                  
             }
